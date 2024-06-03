@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Fetching</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Github Information Fetching</h1>
+    <div id="main">
+        <form id="form" >
+            <input type="search" id="search-user" placeholder="Search User..">
+            <button id="btn">Search</button>
+        </form>
+
+        <div id="user">
+            <img class="img" id="avatar">
+            <div>
+                <span class="follow" id="followers"></span>
+                <span class="follow" id="following"></span>
+            </div>
+        </div>
+
+        <div id="err"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
